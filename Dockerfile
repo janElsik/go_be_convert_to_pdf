@@ -62,7 +62,7 @@ RUN cp /build/main .
 
 # Export necessary port
 #EXPOSE 8080
-EXPOSE 3000
+EXPOSE 4000
 
 # Command to run when starting the container
 CMD ["/dist/main"]
